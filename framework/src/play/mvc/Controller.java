@@ -1234,7 +1234,7 @@ public class Controller implements PlayController, ControllerSupport, LocalVaria
                 }
 
                 if (haveSeenFirstApplicationClass) {
-                    if (className.startsWith("sun.") || className.startsWith("play.")) {
+                    if (className.startsWith("sun.") || className.startsWith("play.") || className.startsWith("jdk.")) {
                         // we're back into the play framework code...
                         return; // done checking
                     } else {

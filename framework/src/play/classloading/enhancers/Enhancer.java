@@ -104,9 +104,6 @@ public abstract class Enhancer {
             return null;
         }
 
-        @Override
-        public void close() {
-        }
     }
 
     /**
